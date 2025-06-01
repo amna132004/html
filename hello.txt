@@ -1,0 +1,4 @@
+Our project is a collaborative effort focused on maintaining and improving the HTML Standard. 
+It brings together contributors in a friendly and respectful environment, following a clear code of conduct. Everyone is welcome to participate
+by following the contribution guidelines. 
+We are grateful to all contributors whose support helps this open-source project grow and evolve.
