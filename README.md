@@ -15,3 +15,7 @@ Tests are in the `html/` directory of the [web-platform-tests repository](https:
 ### Blame
 
 As the `source` file is too large for [GitHub's blame utility](https://help.github.com/articles/tracing-changes-in-a-file/), use [blame for `source` on searchfox](https://searchfox.org/whatwg-html/source/source) instead.
+### Remerciements
+
+Nous remercions tous les contributeurs et utilisateurs pour leur soutien continu.  
+Votre participation aide à améliorer et à faire évoluer ce projet open source.
