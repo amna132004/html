@@ -1,26 +1,44 @@
 :root {
-  --bad-example-text: gray;
-
-  --control-glyph-text: #d50606;
-
-  --img-abstract-bg: #424242;
-  --img-abstract-text: #ffffff;
+  /* Light theme variables */
+  --text-muted: #666666;
+  --highlight-text: #b00020;
+  --image-bg: #e0e0e0;
+  --image-text: #1a1a1a;
 }
 
-@media (prefers-color-scheme:  dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --bad-example-text: gray;
-
-    --control-glyph-text: #d50606;
-
-    --img-abstract-bg: #424242;
-    --img-abstract-text: #ffffff;
+    /* Dark theme overrides */
+    --text-muted: #b0b0b0;
+    --highlight-text: #ff4b5c;
+    --image-bg: #2c2c2c;
+    --image-text: #f0f0f0;
   }
 }
 
-iframe { border: 0; }
+/* General styles */
+iframe {
+  border: 0;
+}
 
-.bad, .bad *:not(.X\58X) { color: var(--bad-example-text); }
+/* Muted/bad example text styling */
+.bad,
+.bad *:not(.X\58X) {
+  color: var(--text-muted);
+}
+
+/* Glyph/control highlight text */
+.control-glyph {
+  color: var(--highlight-text);
+}
+
+/* Abstract image section styling */
+.image-abstract {
+  background-color: var(--image-bg);
+  color: var(--image-text);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
 
 .applies thead th > * { display: block; }
 .applies thead code { display: block; }
