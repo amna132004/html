@@ -1,20 +1,19 @@
-This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).
+Ce dépôt contient la norme HTML.
+### Code de conduite
 
-### Code of conduct
+Nous nous engageons à maintenir un environnement convivial, sûr et inclusif pour toutes et tous. Merci de lire et de respecter le Code de conduite du WHATWG.
 
-We are committed to providing a friendly, safe and welcoming environment for all. Please read and respect the [WHATWG Code of Conduct](https://whatwg.org/code-of-conduct).
+### Contribuer
 
-### Contribution opportunities
-
-We appreciate all contributions, see the [guidelines for contributing](CONTRIBUTING.md) for details, including information on how to build HTML output from the `source` file so you can preview your changes locally.
+Toute contribution est la bienvenue ! Consultez les directives de contribution pour plus de détails, notamment sur la manière de générer la sortie HTML à partir du fichier source afin de prévisualiser vos modifications localement.
 
 ### Tests
 
-Tests are in the `html/` directory of the [web-platform-tests repository](https://github.com/web-platform-tests/wpt).
+Les tests se trouvent dans le répertoire html/ du dépôt web-platform-tests.
 
-### Blame
+### Suivi des modifications (Blame)
 
-As the `source` file is too large for [GitHub's blame utility](https://help.github.com/articles/tracing-changes-in-a-file/), use [blame for `source` on searchfox](https://searchfox.org/whatwg-html/source/source) instead.
+Le fichier source étant trop volumineux pour l’outil "blame" de GitHub, utilisez searchfox pour consulter l’historique des modifications ligne par ligne.
 ### Remerciements
 
 Nous remercions tous les contributeurs et utilisateurs pour leur soutien continu.  
